@@ -1,8 +1,3 @@
 # Pulumi.yaml
-# Metadatos del proyecto Pulumi.
-name: lab02-iac-grupo04
-runtime:
-  name: python
-  options:
-    virtualenv: venv
-description: Lab 02 IaC - despliegue de contenedor Docker local con Pulumi (Python)
+# Metadatos del proyecto Pulumi
+# (pendiente de implementar durante el taller)
