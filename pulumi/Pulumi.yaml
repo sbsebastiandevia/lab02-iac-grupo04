@@ -1,3 +1,5 @@
+#cambios a pulumi
+#
 name: lab02-iac-pulumi
 runtime:
   name: python
