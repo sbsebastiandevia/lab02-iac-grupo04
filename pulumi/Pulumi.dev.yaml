@@ -1,8 +1,3 @@
 # Pulumi.dev.yaml
-# Configuracion del stack 'dev' (local). Equivale a terraform.tfvars.
-config:
-  lab02-iac-grupo04:app_name: webapp
-  lab02-iac-grupo04:group_id: grupo04
-  lab02-iac-grupo04:environment: dev
-  lab02-iac-grupo04:host_port: "8080"
-  lab02-iac-grupo04:image_name: nginx:1.27-alpine
+# Configuracion del stack dev local
+# (pendiente de implementar durante el taller)
