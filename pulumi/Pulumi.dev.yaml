@@ -1,3 +1,5 @@
+#comentario a pulumi
+"
 config:
   lab02-iac-pulumi:environment: dev
   lab02-iac-pulumi:groupId: grupo04
