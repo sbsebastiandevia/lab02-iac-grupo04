@@ -12,7 +12,7 @@
 |-----|--------|--------|-----------------|
 | R1 | Nelson Fernando Ferrucho Gonzalez | nferrucho@unal.edu.co | Terraform (`terraform/`) |
 | R2 | Juan David Gonzalez Munoz | judgonzalezmu@unal.edu.co | Pulumi (`pulumi/`) |
-| R3 | Sebastian Morales Devia | (correo) | Informe comparativo y coordinacion (`docs/`) |
+| R3 | Sebastian Morales Devia | sebastian.morales@segurosbolivar.com | Informe comparativo y coordinacion (`docs/`) |
 
 ---
 
