@@ -1,3 +1,2 @@
-# requirements.txt
-# pulumi>=3.100 y pulumi-docker>=4.0
-# (pendiente de implementar durante el taller)
+pulumi>=3.100.0,<4.0.0
+pulumi-docker>=4.0.0,<5.0.0

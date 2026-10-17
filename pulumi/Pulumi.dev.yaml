@@ -1,3 +1,6 @@
-# Pulumi.dev.yaml
-# Configuracion del stack dev local
-# (pendiente de implementar durante el taller)
+config:
+  lab02-iac-pulumi:environment: dev
+  lab02-iac-pulumi:groupId: grupo04
+  lab02-iac-pulumi:hostPort: "8090"
+  lab02-iac-pulumi:nginxVersion: 1.27-alpine
+encryptionsalt: v1:hnFOrQrHkAQ=:v1:T8uwF31mnJoDPqze:d8LqdWAmMk8eZxIMav+FjIdWocFbrA==
