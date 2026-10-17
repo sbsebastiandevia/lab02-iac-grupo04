@@ -1,37 +1,19 @@
-# ==========================================================
-# Exclusiones obligatorias del laboratorio: tfstate, venv y secretos
-# ==========================================================
-
-# --- Terraform ---
-# El estado NUNCA debe subirse: contiene datos sensibles y es por entorno.
+# Terraform Local
 *.tfstate
 *.tfstate.*
 .terraform/
 .terraform.lock.hcl
 crash.log
-crash.*.log
-# Variables locales (pueden contener valores sensibles)
 terraform.tfvars
-*.auto.tfvars
 
-# --- Pulumi ---
-# Entorno virtual de Python
+# Pulumi Local
+.pulumi/
 venv/
 .venv/
 __pycache__/
-*.py[cod]
-# Estado/credenciales locales de Pulumi
-.pulumi/
+*.pyc
 
-# --- Secretos y entorno ---
-.env
-.env.*
-!.env.example
-*.pem
-*.key
-secrets.*
-
-# --- Sistema / IDE ---
+# Sistema Operativo / Logs
+*.log
 .DS_Store
-.idea/
-.vscode/
+Thumbs.db
