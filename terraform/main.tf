@@ -1,4 +1,4 @@
-# 1. Red Docker aislada para el grupo
+# 1. Red Docker aislada para el grupo 4
 resource "docker_network" "app_network" {
   name = "${var.app_name}-${var.group_id}-net"
 
